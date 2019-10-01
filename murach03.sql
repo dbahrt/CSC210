@@ -20,8 +20,6 @@ we want to use with our query. Our text suggests we should always make sure to
 specify the database we are using. 
 */
 
-/* Mitch has a thing for GUI terminals. */
-
 /* sample output:
 
 copy and paste the output from this query here!
