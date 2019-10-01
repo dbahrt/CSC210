@@ -25,3 +25,26 @@ specify the database we are using.
 copy and paste the output from this query here!
 
 */
+
+/*
+Syverson, Murach's SQL Server 2016, p. 89.
+
+A SELECT statement that retrieves three columns from each row, sorted In ascending sequence by Invoice total:
+*/
+
+    USE AP;
+
+    SELECT InvoiceNumber, InvoiceDate, InvoiceTotal
+    FROM Invoices
+    ORDER BY InvoiceTotal;
+
+
+/* explanation:
+*/
+
+/* sample output:
+
+copy and paste the output from this query here!
+
+*/
+
